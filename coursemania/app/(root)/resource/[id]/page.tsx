@@ -21,14 +21,14 @@ const page = async ({ params } : { params : { id: string }}) => {
                     {resource[0].title}
                 </h1>
                 <div className='mt-6 text-[20px] text-white-800'>
-                    <p>With Over:</p>
+                    <p>Helps you to understand & learn:</p>
                     <ul className='paragraph-regular [&>li]:ml-8 [&>li]:list-disc'>
-                        <li>17+ chapters packed with example source code</li>
+                        <li>the fundamentals of {resource[0].category}</li>
                         <li>comprehensive answers to popular interview questions</li>
                         <li>best practices</li>
                         <li>useful tips & tricks</li>
                     </ul>
-                    ...this eBook is a must-have for any web devloper
+                    ...this course will make you better at {resource[0].category}
                 </div>
 
                 <div>
